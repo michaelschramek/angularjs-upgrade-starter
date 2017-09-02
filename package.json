@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-upgrade-starter",
+  "version": "0.0.1",
+  "description": "Starter template for AngularJS (1.5) migration to Angular (4) with Typescript and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://michaelschramek@github.com/michaelschramek/angularjs-upgrade-starter.git"
+  },
+  "author": "Michael Schramek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelschramek/angularjs-upgrade-starter/issues"
+  },
+  "homepage": "https://github.com/michaelschramek/angularjs-upgrade-starter#readme",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}
