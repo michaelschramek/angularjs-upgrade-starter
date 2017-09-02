@@ -4,6 +4,8 @@
   "description": "Starter template for AngularJS (1.5) migration to Angular (4) with Typescript and Webpack",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,14 @@
   },
   "homepage": "https://github.com/michaelschramek/angularjs-upgrade-starter#readme",
   "devDependencies": {
-    "webpack": "^3.5.5"
+    "html-webpack-plugin": "^2.30.1",
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.5.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.74",
+    "lodash": "^4.17.4"
   }
 }
