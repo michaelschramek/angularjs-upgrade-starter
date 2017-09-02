@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ContextReplacementPlugin = require('webpack/lib/ContextReplacementPlugin');
 
 module.exports = {
     entry: './src/index.ts',
@@ -46,6 +47,10 @@ module.exports = {
                 removeScriptTypeAttributes: true,
                 removeStyleLinkTypeAttributes: true
             }
-        })
+        }),
+        new ContextReplacementPlugin(
+            /angular(\\|\/)core(\\|\/)@angular/,
+            path.resolve(__dirname, '../src')
+        )
     ]
 };
