@@ -19,6 +19,14 @@
   },
   "homepage": "https://github.com/michaelschramek/angularjs-upgrade-starter#readme",
   "devDependencies": {
+    "@types/angular": "^1.6.32",
+    "@types/angular-animate": "^1.5.8",
+    "@types/angular-cookies": "^1.4.5",
+    "@types/angular-mocks": "^1.5.11",
+    "@types/angular-resource": "^1.5.14",
+    "@types/angular-route": "^1.3.4",
+    "@types/angular-sanitize": "^1.3.6",
+    "@types/jasmine": "^2.5.54",
     "@types/node": "^8.0.26",
     "css-loader": "^0.28.7",
     "html-loader": "^0.5.1",
@@ -30,8 +38,7 @@
     "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
-    "@types/angular": "^1.6.32",
-    "@types/lodash": "^4.14.74",
+    "@angular/upgrade": "^4.4.0-RC.0",
     "angular": "^1.6.6",
     "lodash": "^4.17.4"
   }
