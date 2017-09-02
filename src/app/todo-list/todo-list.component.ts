@@ -10,6 +10,5 @@ angular.module('app.todo-list').controller('TodoListController', TodoListControl
 
 angular.module('app.todo-list').component('todoList', {
     template: require('./todo-list.component.html'),
-    controller: 'TodoListController',
-    controllerAs: 'todoList'
+    controller: 'TodoListController'
 });
