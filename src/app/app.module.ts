@@ -1,6 +1,6 @@
 import "./todo-list/todo-list.component";
 import * as angular from 'angular';
 
-angular.module("app.application", [
+angular.module("app", [
     'app.todo-list'
 ]);
